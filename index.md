@@ -1,6 +1,5 @@
 ---
-title: "Workflow page kekw"
+title: "Um passo de cada vez"
 ---
 
-I'm glad you are here. I plan to talk about ...
-my big diglet
+Esse é um repositório utilizado para postar aprendizados diversos em programação transcritos em linguagem markdown para consulta e revisões futuras.
