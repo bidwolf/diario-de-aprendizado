@@ -1,13 +1,26 @@
-# Your GitHub Learning Lab Repository for GitHub Pages
+# Blog de atualização de conhecimentos
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. 
+Este é um site desenvolvido através da linguagem Markdown usando Jekylls, um interpretador Markdown, e neste site são postados artigos
+sobre meus aprendizados em programação.
 
-Oh! I haven't introduced myself...
+## Sobre mim
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+Olá, programador, Bem vindo ao diário de aprendizado, eu me chamo Henrique de Paula Rodrigues, tenho 20 anos e moro no estado de Minas Gerais.
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+Sou estudante de Engenharia no Cefet-MG, e aspirante a desenvolvedor full stack.
 
-I'll meet you over there, can't wait to get started!
+Estudo coisas relacionadas a programação desde que entrei na faculdade (2018) e nessa pandemia decidi que me tornaria um desenvolvedor full stack, e pra isso venho me dedicado a aprender sobre versionamento de código, js, node, express e react. Mas **""um passo de cada vez""**.
+
+## Motivação
+
+A motivação para este projeto é incentivar a evolução continua e aplicar os conceitos aprendidos de forma inconsciente ao tentar explicar
+de forma clara e objetiva todo o conhecimento obtido, para que outras pessoas o acessem.
+Todo conteúdo postado é pensado como forma de inspirar outros que assim como eu desejam se introduzir no universo da programação, tendo como lema a frase "Um passo de cada vez".
+
+## Tecnologias utilizadas
+Em primeiro momento utilizarei tecnologias como *html,markdown, javascript, e yml*.
+Futuramente devo incluir outras tecnologias mas tudo depende da minha evolução.
+
+## Licença
 
 This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
