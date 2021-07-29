@@ -1,22 +1,23 @@
+Este é um artigo para leitura que descreve funcionalidades e  [regras](https://github.com/DavidAnson/markdownlint/blob/v0.23.1/doc/Rules.md) (que na verdade são *boas práticas*) da linguagem **Markdown**.
+O objetivo é, além de servir como um guia, introduzir conceitos e princípios da mesma de forma clara e objetiva.
 
-# Guia básico de Markdown em português
+---
 
 ## Sumário
 
-1. [Introdução](#introdução)
-2. [Sobre a linguagem Markdown](#sobre-a-linguagem-markdown)
+1. [Sobre a linguagem Markdown](#sobre-a-linguagem-markdown)
 
     * [O que é a linguagem Markdown](#o-que-%C3%A9-a-linguagem-markdown)
   
     * [Como a linguagem Markdown funciona](#como-funciona-a-linguagem-markdown)
   
-3. [Headers](#headers)
+2. [Headers](#headers)
 
     * [O que são Headers](o-que-são-Headers)
   
     * [Como utilizar os Headers](oomo-utilizar-os-Headers)
   
-4. [Listas](#listas)
+3. [Listas](#listas)
 
     * [O que são listas em Markdown](#o-que-são-listas)
   
@@ -26,27 +27,22 @@
   
     * [Listas ordenadas](#listas-ordenadas)
   
-5. [Links](#links)
-    * [Como criar links em Markdown](#como-criar-link-em-markdown)
+4. [Links](#links)
+    * [Como criar links em Markdown](#como-criar-links-em-markdown)
     * [Links de imagens](#links-de-imagens)
     * [Emails e links rápidos](#emails-e-links-rápidos)
 
-6. [Códigos](#códigos)
+5. [Códigos](#códigos)
     * [Inline Code](#inline-code)
     * [Fenced code](#fenced-code)
-8. [Tabelas](#tabelas)
-    * [Alinhamento padrâo](#alinhamento-padrão)
+6. [Tabelas](#tabelas)
+    * [Alinhamento à esquerda](#alinhamento-à-esquerda)
     * [Alinhamento à direita](#alinhamento-à-direita)
     * [Alinhamento centralizado](#alinhamento-centralizado)
-9. [Recursos Textuais](#recursos-textuais)
+7. [Recursos Textuais](#recursos-textuais)
     * [Blaquotes](#blaquotes)
     * [Textos diferenciados](#textos-diferenciados)
     * [Rodapés](#rodapés)
-
-## Introdução
-
-Este é um artigo para leitura que descreve funcionalidades e  [regras](https://github.com/DavidAnson/markdownlint/blob/v0.23.1/doc/Rules.md) que na verdade são *boas práticas* na linguagem **Markdown**.
-O objetivo é, além de servir como um guia, introduzir conceitos e princípios da mesma de forma clara e objetiva.
 
 ---
 
