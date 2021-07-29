@@ -1,4 +1,4 @@
-# Javascript básico
+
 Este é um resumo de aprendizado referente aos capítulos 1-4 do livro **"Javascript the definitive Guide"** por David Flanagan
 em sua 6ª edição sobre Javascript Uma ótima recomendação para aqueles que desejam aprender a fundo os aspectos da linguagem 
 javascript nos padrões ES5.
