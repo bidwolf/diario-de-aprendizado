@@ -21,18 +21,25 @@ Os tipos podem ser agrupados em :
 * Primitivos e objetos
 * Com métodos e sem métodos
 * mutáveis (objetos) e imutáveis(tipos primitivos)
-* Comparados por valor(tipos primitivos),comparação por referência (objetos). 
+* Comparados por valor(tipos primitivos),comparação por referência (objetos).
+ 
 Sendo que, objetos são mutáveis, mas os outros tipos primitivos não, todos os tipos excetuando null e undefined possuem métodos em seus objetos wrapper(null e undefined não possuem objetos empacotadores).
+
 ### Linguagem não tipada
+
 Dizer que uma linguagem é não tipada, não quer dizer que não existam tipos primitivos na linguagem, e sim que ao definir *variáveis*
 não é necessário dizer para o interpretador de código javascript, o tipo da variável atribuido, o próprio interpretador é capaz de
 determinar qual o tipo primitivo relacionado a variável, ao utilizar certas _expressões e operadores_.
+
 ```js
+
 var numero=6; //cria uma variável que contém o número seis
 typeof(numero); // -> number
 numero="6";// modifica o valor da variável para uma string contendo o caractere 6
 typeof(numero);//-> string
+
 ```
+
 ### Escopo de variáveis
 São definidas como a região do código onde se declara e acessa variáveis.
 Em javascript existem basicamente dois tipos de escopo, o escopo *local* e o escopo *global*.
@@ -40,8 +47,10 @@ Em javascript existem basicamente dois tipos de escopo, o escopo *local* e o esc
 #### Escopo local
 
 O escopo local existe apenas dentro do corpo de funções não sendo possível acessar suas propriedades fora dela.
+
 Variáveis em escopo local com mesmo nome que variáveis de escopo global ocultam as globais enquanto o interpretador 
 estiver analisando o escopo local.
+
 Também é possivel aninhamento de escopos, de forma que cada função aninhada possua seu próprio escopo, e a nível de comparação
 a função mais exterior interage com a função interior como se fosse um escopo global.
 ```js
@@ -61,14 +70,18 @@ console.log(localizaEscopo());
 console.log(globalscope);
 
 ```
-Você pode pensar nas variáveis locais como propriedades do objeto relacionado à chamada da função (registro declarado do ambiente de execução)
+Você pode pensar nas variáveis locais como propriedades do objeto relacionado à chamada da função (registro declarado do ambiente de execução).
 #### Escopo global
 
 O escopo global, também referido como objeto global ou window, é o escopo superior do programa js, nele se encontram 
 todas as definições de tipos primitivos, constantes e classes predefinidas que não podem ser excluidas ou
-editadas na execução do programa. Também nela estão contidas todas as variáveis declaradas pelo programador sem as palavras
+editadas na execução do programa.
+
+Também nela estão contidas todas as variáveis declaradas pelo programador sem as palavras
 reservada var ou let, ou variáveis var declaradas no escopo global. Elas são criadas no momento em que o interpretador inicia a execução ou o navegador carrega uma nova página.
+
 O objeto global pode ser acessado através da palavra reservada *this* (this pode se referir a outra coisa em um paradigma de orientação a objetos).
+
 Variáveis declaradas sem var são globais mas podem ser deletadas ou editadas, ao contrário das variáveis globais convencionais.
 Além disso não é possivel sobrescrever variáveis globais sem var, utilizando instruções de declaração de variável com var,let ou const.
 
@@ -101,7 +114,11 @@ Originalmente javascript não possui escopo de bloco, ou seja blocos de instruç
 
 ### Encadeamento de escopo
 Javascript é uma linguagem de escopo léxico onde o escopo de uma variável pode ser considerado o conjunto de linhas de código para as quais a variável está definida. GLobal-> pra todo mundo, Local -> para a função ou funções aninhadas, bloco -> para o bloco de instruções pertencente.
+
 Mas Podemos pensar nas variaveis locais como propriedades de algum tipo de objeto definido pela implementação, pensando em cada trecho de código com um encadeamento de escopo associado. Esse encadeamento é uma listaque define as variáveis que estão no escopo para esse código.
+
 Quando o interpretador  precisa pesquisar o valor de uma variável(solução de variável), ele começa examinando o primeiro objeto do encadeamento, e se  ele tiver a propriedade com o nome da variável, então o valor dessa propriedade é usado. Se não ele passa para o encadeamento de escopo anterior, e se não houver nenhuma propriedade com o nome da variável no programa js, então js lança um reference error.
+
 Ou seja, quando criamos um programa, ele instancia o objeto global e inicializa suas propriedades(acima citadas) e adiciona em suas propriedades uma propriedade que referencia seu escopo. Quando criamos uma função ele cria uma propriedade de escopo para essa função também onde a primeira posição é referente as variaveis declaradas no seu escopo e a segunda é do escopo global e em funções aninhadas também, e por ai vai.
+
 **OBS** Funções aninhadas são instanciadas toda vez que a função anterior é chamada, o que significa que na prática, apesar do conteúdo das funções aninhadas serem os mesmos, cada instância é ligeiramente diferente da outra pois sua propriedade de encadeamento de escopo muda em cada chamada.
