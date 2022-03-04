@@ -1,5 +1,5 @@
 
-Essas são notas de aprendizado anotadas referentes ao capítulo 6 do livro [Programação web com Node e Express.]('https://github.com/EthanRBrown/web-development-with-node-and-express-2e')
+Essas são notas de aprendizado anotadas referentes ao capítulo 6 do livro [Programação web com Node e Express.](https://github.com/EthanRBrown/web-development-with-node-and-express-2e)
 
 ## Formulários
 
