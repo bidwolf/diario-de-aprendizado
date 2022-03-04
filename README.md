@@ -5,7 +5,7 @@ sobre meus aprendizados em programação.
 
 ## Sobre mim
 
-Olá, programador, Bem vindo ao diário de aprendizado, eu me chamo Henrique de Paula Rodrigues, tenho 20 anos e moro no estado de Minas Gerais.
+Olá, programador, Bem vindo ao diário de aprendizado, eu me chamo Henrique de Paula Rodrigues, tenho 21 anos e moro no estado de Minas Gerais.
 
 Sou estudante de Engenharia no Cefet-MG, e aspirante a desenvolvedor full stack.
 
