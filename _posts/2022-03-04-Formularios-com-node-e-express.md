@@ -95,7 +95,7 @@ O protocolo HTTP define uma coleção de métodos de requisição (verbos HTTP) 
 
 Eis um Exemplo do fluxo http do método GET.
 
-![Fluxo Http](../../public/img/fluxoHttp.png)
+![Fluxo Http](../_public/_img/fluxoHttp.png)
 
 ### Request Headers
 
@@ -131,7 +131,7 @@ Também é comum que a propriedade headers do objeto de resposta contenha inform
 
 Para ver todos os cabeçalhos de resposta basta abrir o devTools do seu navegador na aba network e recarregar a página, em seguida clicar na aba Headers.
 
-![Response Headers](../../public/img/responseHeaders.png)
+![Response Headers](../_public/_img/responseHeaders.png)
 
 ## Response Object
 
