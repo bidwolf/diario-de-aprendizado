@@ -65,10 +65,10 @@ Permitindo que escrevamos o código na linguagem de destino fornecendo ao mesmo 
 <!-- No código HTML-->
 <h1>Muito melhor</h1>
 
-<p>Hoje é dia {{today}}.</p>
+<p>Hoje é dia \{\{today\}\}.</p>
 ```
 
-E tudo que precisamos fazer agora é fornecer um valor para {{today}} no server side.
+E tudo que precisamos fazer agora é fornecer um valor para ***today*** no server side.
 
 ## Selecionando uma engine de template
 
